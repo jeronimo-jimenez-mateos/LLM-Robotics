@@ -1,0 +1,7 @@
+opencv-python==4.5.5.62
+numpy==1.24.0
+stereovision==1.0.0
+websockets==11.0.3
+RPi.GPIO==0.7.1
+mpu6050-raspberrypi==1.0.2
+requests==2.31.0
