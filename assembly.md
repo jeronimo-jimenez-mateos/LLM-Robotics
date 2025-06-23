@@ -54,12 +54,39 @@ These are the instructions to build the robot.
 1. **Build the chassis** and place the Raspberry Pi 4 in the lower layer. It will be necessary to weld a black and a red wire to the power pins of each motor.
 2. **Connect the L298N** to its power supply, like in the image below.
 
-<img src="Files/raspberry-l298n.png" alt="L298N diagram">
+<img src="Files/raspberry-l298n.png" alt="L298N diagram" width="300">
 
-3. **Mount the encoders and its disks** and connect the encoders to the Raspberry.
-4. **Connect the 
+You can use the following Raspberry Pi pins:
+
+| Pin Name | GPIO | Description                 |
+|----------|------|-----------------------------|
+| IN1      | 17   | Left motor control pin      |
+| IN2      | 27   | Left motor control pin      |
+| IN3      | 10   | Right motor control pin     |
+| IN4      | 9    | Right motor control pin     |
+| ENA      | 4    | Enable pin for left motor   |
+| ENB      | 22   | Enable pin for right motor  |
+
+3. **Mount the encoder disks on each wheel edge**, as shown in the image.
+
+<img src="Files/encoder-disk.jpg" alt="Encoder with disk" width="300">
+
+4. **Mount and connect the encoders to the Raspberry Pi**, paying attention to leave the disk in the gap between the two sides of the encoder.
+
+<img src="Files/encoder-wheel.webp" alt="Encoders assembly" width="300">
+
+The suggested pins are 11, 18, 19 and 26 for the 4 encoders.
+
+5. **Connect the MPU-6050** and place it in a place where it's not moving.
+
+6. **Connect the ultrasonic sensor**. It will require two pins apart from the power: one for echo and one for trigger. For example, use the GPIO pin 20 for trigger and 21 for echo.
+7. **Connect the camera** via USB.
+8. Once all above is done, **connect the power bank** to the Raspberry Pi Power Input and supply the protoboard with +5V and GND.
+
+The schematic should look like the image below.
 
 <img src="Files/Schematic.png" alt="Schematic">
+
 
 
 
