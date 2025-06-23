@@ -1,7 +1,7 @@
-# Assembly guide of the robot
+# 🛠️Assembly guide of the robot
 This file aims to provide a step-by-step guide of how to build the robot.
 
-## Components
+## 💡Components
 First, we will take a look at all the components and its functions.
 
 ### 1. Chassis & motors
@@ -48,6 +48,18 @@ Ultrasonic sensors are widely used distance sensors in mobile robotics, primaril
 ### 7. Power bank
 To power the Raspberry Pi and its connected components, a separate power supply is needed in addition to the one used for the motors. Due to the mobile nature of the robot, a power bank is a practical choice since it doesn't need to be plugged into an outlet. The power bank must meet the Raspberry Pi's power requirements, which are 5V and 3A. There are many suitable models available on the market. 
 
+## 🛠️Assembly
+These are the instructions to build the robot.
+
+1. **Build the chassis** and place the Raspberry Pi 4 in the lower layer. It will be necessary to weld a black and a red wire to the power pins of each motor.
+2. **Connect the L298N** to its power supply, like in the image below.
+
+<img src="Files/raspberry-l298n.png" alt="L298N diagram">
+
+3. **Mount the encoders and its disks** and connect the encoders to the Raspberry.
+4. **Connect the 
+
+<img src="Files/Schematic.png" alt="Schematic">
 
 
 
