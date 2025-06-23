@@ -4,4 +4,4 @@ The aim of this repository is to create a mobile robot and connect it to a Large
 ## Structure of the repo
 - **src** Code
 - **docs** Documentation about libraries, hardware...
-- **assembly** Step-by-step of the robot building
+- **assembly.md** Step-by-step of the robot building
