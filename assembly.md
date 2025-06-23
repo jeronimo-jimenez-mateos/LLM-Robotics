@@ -1,7 +1,5 @@
-# Does an LLM work as a controller for a mobile robot?
-The aim of this repository is to create a mobile robot and connect it to a Large Language Model which will act as the robot controller.
+# Assembly guide of the robot
+This file aims to provide a step-by-step guide of how to build the robot.
 
-## Structure of the repo
-- **src** Code
-- **docs** Documentation about libraries, hardware...
-- **assembly.md** Step-by-step of the robot building
+## 1. Chassis
+The chosen chassis 
