@@ -1,6 +1,8 @@
 # Does an LLM work as a controller for a mobile robot?
 The aim of this repository is to create a mobile robot and connect it to a Large Language Model which will act as the robot controller. The robot will have the role of object finder, so its scope will be finding the desired object in a space.
 
+<img src="Files/Project-diagram.png" alt="Diagram of the Project">
+
 In the image above you can find a block diagram of the structure of the project.
 It mainly consists on two parts:
 - A mobile robot equipped with a camera that takes photos of the environment.
