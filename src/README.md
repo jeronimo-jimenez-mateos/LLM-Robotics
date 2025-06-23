@@ -1,4 +1,4 @@
-# Source folder
+# 💻Source folder
 This folder contains all the Python files to run the project
 
 ## Structure of the folder
